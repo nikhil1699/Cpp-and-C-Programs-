@@ -27,7 +27,7 @@ void push(stack *s,int x)
  s->top=s->top+1;
  s->data[s->top]=x;
 }
-//-----------------------
+//----------------------
 int pop(stack *s)
 {
  int x;
